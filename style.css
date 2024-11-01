@@ -1,0 +1,30 @@
+html {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.Contener {
+    /* Padding-inline */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 42px;
+}
+
+nav {
+    display: flex;
+    align-items: center; 
+    gap: 18px; 
+}
+
+.--button {
+    display: flex;
+    padding-inline: 16px;
+    padding-block: 8px;
+    border: 1px solid #e4e4e4ee;
+}
