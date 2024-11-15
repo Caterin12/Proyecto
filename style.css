@@ -1,3 +1,7 @@
+.logo {
+    font-size: 18px;
+}
+
 html {
     font-family: 'Be Vietnam Pro', sans-serif;
     scroll-behavior: smooth;
@@ -8,7 +12,7 @@ body {
     padding: 0;
     background-color: white;
 }
-.Contener {
+.inline-container {
     /* Padding-inline */
     display: flex;
     align-items: center;
@@ -22,9 +26,22 @@ nav {
     gap: 18px; 
 }
 
+.--link{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+}
+
 .--button {
     display: flex;
     padding-inline: 16px;
     padding-block: 8px;
     border: 1px solid #e4e4e4ee;
+    border-radius: 6px;
+    color: #000;
+}
+
+/*Modificadore */
+.--gap-10{
+    gap:10px;
 }
