@@ -32,7 +32,7 @@ nav {
     color: #000;
 }
 
-.--button {
+.--butto, .--button-white{
     display: flex;
     padding-inline: 16px;
     padding-block: 8px;
@@ -41,7 +41,40 @@ nav {
     color: #000;
 }
 
+.--button-white{
+    width: fit-content;
+    padding-block: 12px;
+    padding-inline: 32px;
+}
+.--title{
+    font-size:  60px;
+    color: white;
+}
+
+.--desc{
+    font-size: 20px;
+    color: white;
+}
+
 /*Modificadore */
 .--gap-10{
     gap:10px;
+}
+
+.--no-beetwen{
+    justify-content: initial;
+}
+
+.--no-padding-inline{
+    padding-inline: initial;
+}
+
+/* HERO */
+.hero{
+    display: flex;
+    background-color: #3462e3;
+}
+
+.frist-container{
+    width: 660px;
 }
