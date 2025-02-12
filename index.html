@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página</title>
     <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=school" />
 </head>
 
 <body>
@@ -15,6 +19,8 @@
     <div class="--inline-container header-container">
          <h1 class="logo">ACME</h1>
         <nav class="navegation">
+            <!-- CSS BEM-->
+             <!---->
             <a href="#" class="--link">Home</a>
             <a href="#" class="--link">Home</a>
             <a href="#" class="--link">Home</a>
@@ -28,17 +34,33 @@
   <main>      
     <section class="hero">
         <div class="frist-container">
-            <div>
-                <h1 class="--title">Unlock Your Potential <br> With Our Platform</h1>
+            <div class="--block-container --gap-12">
+                <h1 class="--title">Unlock Your Potencial <br> Wiht Our Plataform</h1>
                 <p class="--desc">Embark on a journey of knowledge and skill acquisition with our <br> cutting-edge online 
                 courses. Learn from industry experts and <br> advance your career.</p>
-                <div class="--inline-container --no-beetwen --no-padding-inline">
+                <div class="--inline-container --no-beetwen --no-padding-inline  --gap-8">
                     <a href="#" class="--button-white">Get Stared</a>
                     <a href="#" class="--button-white">Explore</a>
                 </div>
             </div>
             <img src="placeholder.svg" alt="" width="375" height="375">    
         </div>
+    </section>
+
+    <section class="--section  --gap-12">
+        <h2 class="--section-title --text-centered">Why Choose Us</h2>
+        <p class="--section-desc --text-centered">At Acme Learning, we're committed to providing you with the <br>best online education experience possible.</p>
+        <div class="--three-cards-comtainer">
+            <div class="--card --flex-cendetred">
+                <span class="material-symbols-outlined  --self-centered">
+                    school
+                </span>
+                <h3 class="--subtitle  --text-centered">Expert Instructor</h3>
+                    <p class="--text-centered">Learn from industry professionals with years of experience in their respective fields.</p>
+            </div>
+            
+        </div>
+
     </section>
   </main>
 </body>
